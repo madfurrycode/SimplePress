@@ -1,0 +1,55 @@
+.bg-darken {
+  background-color: #333!important;
+}
+.navbar-dark {
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  .dropdown-menu {
+    margin-top: 8px;
+    border: none;
+    border-radius: 0;
+    background-color: #eee;
+    // box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+    .dropdown-item {
+      background-color: transparent;
+      &:hover {
+        background-color: transparent;
+        color: #563d7c;
+      }
+    }
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  button:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .navbar-dark{
+    text-align: center;
+    .navbar-toggler {
+      margin-left: calc(50% - 25px);
+    }
+  }
+}
+
+@media screen and (max-width: 756px){
+  .navbar-dark{
+    text-align: center;
+    .navbar-toggler {
+      margin-left: calc(50% - 25px);
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+  .navbar-dark {
+    text-align: center;
+    .navbar-toggler {
+      margin-left: calc(50% - 25px);
+    }
+  }
+}
